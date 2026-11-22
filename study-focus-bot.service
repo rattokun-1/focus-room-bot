@@ -1,0 +1,16 @@
+[Unit]
+Description=Study focus VC Discord bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=study-focus-bot
+WorkingDirectory=/opt/study-focus-bot
+EnvironmentFile=/etc/study-focus-bot.env
+ExecStart=/opt/study-focus-bot/.venv/bin/python -m study_bot
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

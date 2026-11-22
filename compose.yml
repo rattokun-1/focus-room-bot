@@ -1,0 +1,20 @@
+services:
+  study-focus-bot:
+    build: .
+    image: study-focus-bot:latest
+    container_name: study-focus-bot
+    restart: unless-stopped
+    # ./data を持つホスト側ユーザーの uid:gid に合わせる（書き込めるようにするため）
+    user: "1000:1000"
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/study.db
+      FFMPEG_PATH: ffmpeg
+      LOG_DEBUG: ${LOG_DEBUG:-}
+    volumes:
+      - ./data:/app/data
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "3"
