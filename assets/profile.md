@@ -12,12 +12,13 @@ Discord Developer Portal の各欄に貼り付ける内容です。
 Botのプロフィールの「自己紹介」に表示される。
 
 ```
-勉強用VCの集中をサポートするBotです。
-📊 VCにいる時間を自動で記録 → /stats /ranking
-🍅 VCごとのポモドーロタイマー → /pomodoro start
-🎯 1日の目標とリマインド → /goal /remind
-🎵 YouTube Musicから集中用BGMを再生 → /music play
-⚙️ 管理者向け設定 → /studyconfig
+VCに入るだけで、ポモドーロと集中用BGMがスタートする勉強用Botです。
+🚀 VC入室・/start で自動開始
+📊 勉強時間を自動記録 → /stats /ranking
+🍅 ポモドーロタイマー → /pomodoro
+🎯 目標とリマインド → /goal /remind
+🎵 YouTube MusicのBGM → /music play
+⚙️ 設定はまとめて → /setup
 ```
 
 ## Tags（任意、最大5つ）
