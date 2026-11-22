@@ -41,4 +41,4 @@
 
 ## 8. お問い合わせ
 
-GitHub の [Issues](https://github.com/rattokun-1/focus-room-bot/issues) からご連絡ください。<!-- SUPPORT_SERVER_LINK -->
+GitHub の [Issues](https://github.com/rattokun-1/focus-room-bot/issues) か、[Focus Room 公式サーバー](https://discord.gg/bQrcJUYMbX) の「質問・サポート」チャンネルからご連絡ください。

@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://discord.com/oauth2/authorize?client_id=1573705154710999161&permissions=3238912&scope=bot%20applications.commands&integration_type=0"><img src="https://img.shields.io/badge/Discord-サーバーに追加-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="サーバーに追加"></a>
-  <!-- SUPPORT_SERVER_BADGE -->
+  <a href="https://discord.gg/bQrcJUYMbX"><img src="https://img.shields.io/badge/公式サーバー-参加する-FFB852?style=for-the-badge&logo=discord&logoColor=white" alt="公式サーバーに参加"></a>
 </p>
 
 <p align="center">
@@ -58,6 +58,8 @@
 </table>
 
 ## 🏁 はじめかた
+
+> 💬 質問・不具合報告・要望は [Focus Room 公式サーバー](https://discord.gg/bQrcJUYMbX) へどうぞ。
 
 1. 上の **「サーバーに追加」** ボタンから、Focus Room をサーバーに招待します
 2. `/setup` を開き、「🚀 自動開始」で集中用のVCと流す音楽を選びます
@@ -191,3 +193,4 @@ tests/           pytest
 
 - [MIT License](LICENSE)
 - [プライバシーポリシー](PRIVACY.md) ・ [利用規約](TERMS.md)
+- サポート：[Focus Room 公式サーバー](https://discord.gg/bQrcJUYMbX) ・ [GitHub Issues](https://github.com/rattokun-1/focus-room-bot/issues)
