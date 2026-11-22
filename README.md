@@ -147,3 +147,7 @@ tests/           pytest
 - Bot は聞き取りオフ（self-deaf）にせずに VC に入ります。受信した音声は処理しません。
 - **YouTube の利用規約**は、公式プレイヤー以外での再生を制限しています。BGM 機能は、個人や小規模なサーバーで、自己責任のもとで使ってください。再生できなくなった場合は、yt-dlp を更新してください（Docker の場合は `docker compose build --no-cache`）。
 - 同じトークンの Bot を複数の場所で同時に動かすと、コマンドに二重で応答します。
+
+## ライセンス
+
+[MIT License](LICENSE)
